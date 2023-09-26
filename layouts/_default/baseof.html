@@ -74,7 +74,7 @@
 
 {{ define "main" }}
   <article class="markdown">
-    {{- .Content -}}
+    {{- partial "docs/textprocessing.html" . -}}
   </article>
 {{ end }}
 
